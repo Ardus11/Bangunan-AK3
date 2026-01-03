@@ -143,59 +143,59 @@
         function pop_BangunanAK3_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">No</th>\
+                        <th scope="row">No.Kopel</th>\
                         <td>' + (feature.properties['No'] !== null ? autolinker.link(String(feature.properties['No']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Pondasi</th>\
+                        <th scope="row">Pekerjaan Pondasi</th>\
                         <td>' + (feature.properties['Pondasi'] !== null ? autolinker.link(String(feature.properties['Pondasi']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Struktur</th>\
+                        <th scope="row">Pekerjaan Struktur</th>\
                         <td>' + (feature.properties['Struktur'] !== null ? autolinker.link(String(feature.properties['Struktur']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Dinding</th>\
+                        <th scope="row">Pekerjaan Dinding</th>\
                         <td>' + (feature.properties['Dinding'] !== null ? autolinker.link(String(feature.properties['Dinding']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Pintu_jend</th>\
+                        <th scope="row">Pekerjaan Pintu&Jendela</th>\
                         <td>' + (feature.properties['Pintu_jend'] !== null ? autolinker.link(String(feature.properties['Pintu_jend']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Atap</th>\
+                        <th scope="row">Pekerjaan Atap</th>\
                         <td>' + (feature.properties['Atap'] !== null ? autolinker.link(String(feature.properties['Atap']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Lantai</th>\
+                        <th scope="row">Pekerjaan Lantai</th>\
                         <td>' + (feature.properties['Lantai'] !== null ? autolinker.link(String(feature.properties['Lantai']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Pengecetan</th>\
+                        <th scope="row">Pekerjaan Pengecetan</th>\
                         <td>' + (feature.properties['Pengecetan'] !== null ? autolinker.link(String(feature.properties['Pengecetan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Plafond</th>\
+                        <th scope="row">Pekerjaan Plafond</th>\
                         <td>' + (feature.properties['Plafond'] !== null ? autolinker.link(String(feature.properties['Plafond']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Sanitasi</th>\
+                        <th scope="row">Pekerjaan Sanitasi</th>\
                         <td>' + (feature.properties['Sanitasi'] !== null ? autolinker.link(String(feature.properties['Sanitasi']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Meja_Dapur</th>\
+                        <th scope="row">Pekerjaan Meja Dapur</th>\
                         <td>' + (feature.properties['Meja_Dapur'] !== null ? autolinker.link(String(feature.properties['Meja_Dapur']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Drainase</th>\
+                        <th scope="row">Pekerjaan Parit Drainase</th>\
                         <td>' + (feature.properties['Drainase'] !== null ? autolinker.link(String(feature.properties['Drainase']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Listrik</th>\
+                        <th scope="row">Instalasi Listrik</th>\
                         <td>' + (feature.properties['Listrik'] !== null ? autolinker.link(String(feature.properties['Listrik']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Inst_Air</th>\
+                        <th scope="row">Instalasi Air</th>\
                         <td>' + (feature.properties['Inst_Air'] !== null ? autolinker.link(String(feature.properties['Inst_Air']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
@@ -203,7 +203,7 @@
                         <td>' + (feature.properties['Persiapan'] !== null ? autolinker.link(String(feature.properties['Persiapan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">Total</th>\
+                        <th scope="row">Total(%)</th>\
                         <td>' + (feature.properties['Total'] !== null ? autolinker.link(String(feature.properties['Total']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
