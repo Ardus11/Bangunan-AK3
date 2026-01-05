@@ -146,6 +146,10 @@
                         <th scope="row">No.Kopel</th>\
                         <td>' + (feature.properties['No'] !== null ? autolinker.link(String(feature.properties['No']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
+				 	<tr>\
+                        <th scope="row">Persiapan</th>\
+                        <td>' + (feature.properties['Persiapan'] !== null ? autolinker.link(String(feature.properties['Persiapan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
                     <tr>\
                         <th scope="row">Pekerjaan Pondasi</th>\
                         <td>' + (feature.properties['Pondasi'] !== null ? autolinker.link(String(feature.properties['Pondasi']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
@@ -197,10 +201,6 @@
                     <tr>\
                         <th scope="row">Instalasi Air</th>\
                         <td>' + (feature.properties['Inst_Air'] !== null ? autolinker.link(String(feature.properties['Inst_Air']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">Persiapan</th>\
-                        <td>' + (feature.properties['Persiapan'] !== null ? autolinker.link(String(feature.properties['Persiapan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
                         <th scope="row">Total(%)</th>\
